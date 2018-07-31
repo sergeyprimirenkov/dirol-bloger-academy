@@ -1,0 +1,43 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch",
+    "deploy": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeySanin/Landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-uncss": "^1.0.5",
+    "imagemin-pngquant": "^4.2.2",
+    "magnific-popup": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "css-mqpacker": "^4.0.1",
+    "jquery": "^3.3.1",
+    "rename": "^1.0.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "homepage": "https://github.com/SergeySanin/Landing#readme"
+}
