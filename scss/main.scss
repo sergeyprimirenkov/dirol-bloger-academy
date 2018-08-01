@@ -1,5 +1,10 @@
-@import "./default";
 @import "utils/fonts";
 @import "utils/variables";
 @import "utils/mixins";
-@import "components/body";
+@import "./default";
+@import "components/main-bg";
+@import "components/box";
+@import "components/page-header";
+@import "components/main-nav";
+@import "components/logout-btn";
+@import "components/logout";

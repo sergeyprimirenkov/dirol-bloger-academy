@@ -4,10 +4,86 @@
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 12px; }
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both; }
 
-body {
-  background-color: green; }
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.main-bg {
+  min-height: 595px;
+  width: 100%;
+  background: url(../assets/images/main-bg.png) center bottom/cover no-repeat, -webkit-gradient(linear, left top, left bottom, from(#3257c8), to(#448dcd));
+  background: url(../assets/images/main-bg.png) center bottom/cover no-repeat, linear-gradient(to bottom, #3257c8, #448dcd); }
+
+.box {
+  min-height: 350px; }
+
+.page-header {
+  padding-top: 35px;
+  padding-right: 30px;
+  padding-left: 55px; }
+
+.main-nav {
+  float: left; }
+  .main-nav__list {
+    line-height: 55px; }
+  .main-nav__item {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px; }
+  .main-nav__item:last-child {
+    margin-right: 0; }
+  .main-nav__link {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: border 0.2s;
+    transition: border 0.2s; }
+    .main-nav__link:hover {
+      border-bottom: 4px solid #fff; }
+
+.logout-btn {
+  position: relative;
+  float: right; }
+  .logout-btn__description {
+    position: absolute;
+    height: 70px;
+    width: 275px;
+    background: url(../assets/images/left-arrow.png) left center no-repeat, url(../assets/images/right-arrow.png) right bottom no-repeat;
+    top: 30px;
+    right: -5px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-bottom: 4px;
+    text-align: center;
+    padding-top: 35px; }
+  .logout-btn:hover {
+    cursor: pointer; }
+
+.logout {
+  display: inline-block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 60px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  width: 230px;
+  border: 5px solid #ffed00;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  background: url(../assets/images/btn-bg.png) no-repeat, -webkit-gradient(linear, left top, right top, from(#1da2e2), to(#1d9cdf));
+  background: url(../assets/images/btn-bg.png) no-repeat, linear-gradient(to right, #1da2e2, #1d9cdf);
+  background-position: 85% center; }

@@ -1,0 +1,25 @@
+.main-nav {
+	float: left;
+	&__list {
+		line-height: 55px;
+	}
+	&__item {
+		list-style: none;
+		display: inline-block;
+		margin-right: 40px;
+	}
+	&__item:last-child {
+		margin-right: 0;
+	}
+	&__link {
+		display: inline-block;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #fff;
+		transition:border 0.2s;
+
+		&:hover {
+			border-bottom: 4px solid #fff;
+		}
+	}
+}

@@ -4,7 +4,9 @@
   padding: 0;
 }
 body {
-  
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 12px;
 }
 .clearfix {
   &:after {
@@ -12,4 +14,7 @@ body {
 	display: table;
     clear: both;
   }
+}
+.container {
+  @include container;
 }
