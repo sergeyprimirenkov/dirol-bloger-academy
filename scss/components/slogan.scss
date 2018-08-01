@@ -1,0 +1,30 @@
+.slogan {
+	width: 545px;
+	float: right;
+	text-align: left;
+	position: relative;
+
+	&__logo {
+		position: absolute;
+		top: -60px;
+		left: -440px;
+	}
+	&__text {
+		font-size: 25px;
+		padding-right: 45px;
+		padding-bottom: 5px;
+		background: url(../assets/images/arrow-down.png) right 12px no-repeat;
+	}
+	&__title {
+		font-size: 50px;
+		text-transform: uppercase;
+		margin-top: 25px;
+	}
+	&__subtitle {
+		font-size: 22px;
+		text-transform: uppercase;
+		padding-bottom: 11px;
+		background: url(../assets/images/wave-line.png) left bottom no-repeat;
+		background-size: 380px 11px;
+	}
+}

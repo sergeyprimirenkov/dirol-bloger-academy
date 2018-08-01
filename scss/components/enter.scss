@@ -1,0 +1,14 @@
+.enter {
+	width: 150px;
+	background: transparent;
+	border: 3px solid #fb8605;
+	border-bottom: 3px solid #f1304c;
+	border-radius: 25px;
+	padding: 13px 0;
+	font-size: 12px;
+	text-transform: uppercase;
+
+	&:hover {
+		cursor: pointer;
+	}
+}

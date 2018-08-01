@@ -1,0 +1,17 @@
+.promo {
+	padding-bottom: 75px;
+	min-width: 1160px;
+	position: absolute;
+	top: 350px;
+	left: 50%;
+	transform: translate(-50%);
+	background: url(../assets/images/man.png) left top no-repeat, url(../assets/images/girl.png) right 10px no-repeat;
+
+	&__wrapper {
+		width: 545px;
+		margin: 0 auto;
+	}
+	&__center {
+		text-align: center;
+	}
+}

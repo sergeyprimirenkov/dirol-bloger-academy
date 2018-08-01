@@ -1,5 +1,6 @@
 .main-nav {
 	float: left;
+	min-height: 60px;
 	&__list {
 		line-height: 55px;
 	}
@@ -20,6 +21,7 @@
 
 		&:hover {
 			border-bottom: 4px solid #fff;
+			cursor: pointer;
 		}
 	}
 }
