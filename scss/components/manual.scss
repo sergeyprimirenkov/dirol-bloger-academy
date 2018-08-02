@@ -1,0 +1,84 @@
+.manual {
+	min-height: 320px;
+	display: flex;
+	padding-top: 55px;
+	padding-bottom: 40px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+	&__step {
+		width: 223px;
+		height: 223px;
+		border-radius: 50%;
+		padding-top: 25px;
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+
+		img {
+			position: absolute;
+			z-index: 1;
+			left: 180px;
+			top: 15px;
+		}
+
+		&--first {
+			background: linear-gradient(to right, #f0cf30, #c2cc30);
+			position: relative;
+			&:after {
+				content: "";
+				width: 226px;
+				height: 55px;
+				position: absolute;
+				top: 212px;
+				left: 127px;
+				background: url(../assets/images/arrow1.png) no-repeat;
+			}
+		}
+		&--second {
+			background: linear-gradient(to right, #accb30, #7cc730);
+			position: relative;
+				&:after {
+				content: "";
+				width: 226px;
+				height: 55px;
+				position: absolute;
+				top: -45px;
+				left: 145px;
+				background: url(../assets/images/arrow2.png) no-repeat;
+			}
+		}
+		&--third {
+			background: linear-gradient(to right, #70c630, #69c173);
+			position: relative;
+				&:after {
+				content: "";
+				width: 226px;
+				height: 55px;
+				position: absolute;
+				top: 210px;
+				left: 155px;
+				background: url(../assets/images/arrow3.png) no-repeat;
+			}
+		}
+		&--fourth {
+			background: linear-gradient(to right, #69bf97, #69bbd8);
+		}
+	}
+	&__number {
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+	&__title {
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+	&__text {
+		font-size: 14px;
+	}
+	.icon {
+		position: static;
+		margin-top: 20px;
+	}
+
+}

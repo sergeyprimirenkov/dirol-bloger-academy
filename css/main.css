@@ -158,6 +158,8 @@ body {
   height: 305px;
   width: 100%;
   margin-bottom: 28px; }
+  .video:hover {
+    cursor: pointer; }
 
 .info {
   color: #000;
@@ -190,3 +192,107 @@ body {
   text-transform: uppercase; }
   .enter:hover {
     cursor: pointer; }
+
+.content {
+  padding-top: 40px;
+  padding-bottom: 130px;
+  text-align: center; }
+  .content__title {
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 22px;
+    margin-bottom: 55px;
+    background: url(../assets/images/blue-line.png) center bottom no-repeat; }
+  .content__txt {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 55px; }
+  .content__paragraph {
+    width: 790px;
+    font-size: 18px;
+    color: #000;
+    margin: 0 auto; }
+
+.manual {
+  min-height: 320px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px; }
+  .manual__step {
+    width: 223px;
+    height: 223px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px; }
+    .manual__step img {
+      position: absolute;
+      z-index: 1;
+      left: 180px;
+      top: 15px; }
+    .manual__step--first {
+      background: -webkit-gradient(linear, left top, right top, from(#f0cf30), to(#c2cc30));
+      background: linear-gradient(to right, #f0cf30, #c2cc30);
+      position: relative; }
+      .manual__step--first:after {
+        content: "";
+        width: 226px;
+        height: 55px;
+        position: absolute;
+        top: 212px;
+        left: 127px;
+        background: url(../assets/images/arrow1.png) no-repeat; }
+    .manual__step--second {
+      background: -webkit-gradient(linear, left top, right top, from(#accb30), to(#7cc730));
+      background: linear-gradient(to right, #accb30, #7cc730);
+      position: relative; }
+      .manual__step--second:after {
+        content: "";
+        width: 226px;
+        height: 55px;
+        position: absolute;
+        top: -45px;
+        left: 145px;
+        background: url(../assets/images/arrow2.png) no-repeat; }
+    .manual__step--third {
+      background: -webkit-gradient(linear, left top, right top, from(#70c630), to(#69c173));
+      background: linear-gradient(to right, #70c630, #69c173);
+      position: relative; }
+      .manual__step--third:after {
+        content: "";
+        width: 226px;
+        height: 55px;
+        position: absolute;
+        top: 210px;
+        left: 155px;
+        background: url(../assets/images/arrow3.png) no-repeat; }
+    .manual__step--fourth {
+      background: -webkit-gradient(linear, left top, right top, from(#69bf97), to(#69bbd8));
+      background: linear-gradient(to right, #69bf97, #69bbd8); }
+  .manual__number {
+    font-size: 25px;
+    margin-bottom: 15px; }
+  .manual__title {
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .manual__text {
+    font-size: 14px; }
+  .manual .icon {
+    position: static;
+    margin-top: 20px; }
+
+footer {
+  height: 160px;
+  background: url(../assets/images/footer-bg.png) no-repeat;
+  background-size: 100% 100%; }
