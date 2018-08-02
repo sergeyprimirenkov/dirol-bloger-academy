@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../assets/fonts/AvenirNextCyr-Bold.eot");
+  src: local("Avenir Next Cyr Bold"), local("AvenirNextCyr-Bold"), url("../assets/fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/AvenirNextCyr-Bold.woff") format("woff"), url("../assets/fonts/AvenirNextCyr-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url("../assets/fonts/AvenirNextCyr-Thin.eot");
+  src: local("Avenir Next Cyr Thin"), local("AvenirNextCyr-Thin"), url("../assets/fonts/AvenirNextCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/AvenirNextCyr-Thin.woff") format("woff"), url("../assets/fonts/AvenirNextCyr-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Uni Sans Heavy CAPS';
+  src: url("../assets/fonts/UniSansHeavyCAPS.eot");
+  src: local("Uni Sans Heavy CAPS"), local("UniSansHeavyCAPS"), url("../assets/fonts/UniSansHeavyCAPS.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/UniSansHeavyCAPS.woff") format("woff"), url("../assets/fonts/UniSansHeavyCAPS.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Paddis Handwritten';
+  src: url("../assets/fonts/PaddisHandwritten.eot");
+  src: local("Paddis Handwritten Medium"), local("PaddisHandwritten"), url("../assets/fonts/PaddisHandwritten.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/PaddisHandwritten.woff") format("woff"), url("../assets/fonts/PaddisHandwritten.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'LemonMilk';
+  src: url("../assets/fonts/LemonMilk.eot");
+  src: url("../assets/fonts/LemonMilk.eot") format("embedded-opentype"), url("../assets/fonts/LemonMilk.woff2") format("woff2"), url("../assets/fonts/LemonMilk.woff") format("woff"), url("../assets/fonts/LemonMilk.ttf") format("truetype"), url("../assets/fonts/LemonMilk.svg#LemonMilk") format("svg"); }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,7 +38,7 @@
   padding: 0; }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Avenir Next Cyr Bold', Arial, sans-serif;
   color: #fff;
   font-size: 12px; }
 
@@ -20,7 +53,7 @@ body {
 
 .main-bg {
   position: relative;
-  padding-bottom: 260px;
+  padding-bottom: 290px;
   width: 100%;
   background: url(../assets/images/main-bg.png) center bottom/cover no-repeat, -webkit-gradient(linear, left top, left bottom, from(#3257c8), to(#448dcd));
   background: url(../assets/images/main-bg.png) center bottom/cover no-repeat, linear-gradient(to bottom, #3257c8, #448dcd); }
@@ -87,7 +120,6 @@ body {
   border: 5px solid #ffed00;
   color: #fff;
   text-transform: uppercase;
-  font-weight: bold;
   text-decoration: none;
   background: url(../assets/images/btn-bg.png) no-repeat, -webkit-gradient(linear, left top, right top, from(#1da2e2), to(#1d9cdf));
   background: url(../assets/images/btn-bg.png) no-repeat, linear-gradient(to right, #1da2e2, #1d9cdf);
@@ -103,15 +135,17 @@ body {
     top: -60px;
     left: -440px; }
   .slogan__text {
-    font-size: 25px;
+    font-family: 'Paddis Handwritten';
+    font-size: 44px;
     padding-right: 45px;
-    padding-bottom: 5px;
-    background: url(../assets/images/arrow-down.png) right 12px no-repeat; }
+    background: url(../assets/images/arrow-down.png) right 20px no-repeat; }
   .slogan__title {
+    font-family: 'Uni Sans Heavy CAPS';
     font-size: 50px;
     text-transform: uppercase;
-    margin-top: 25px; }
+    margin-top: 5px; }
   .slogan__subtitle {
+    font-family: 'Uni Sans Heavy CAPS';
     font-size: 22px;
     text-transform: uppercase;
     padding-bottom: 11px;
@@ -144,15 +178,17 @@ body {
     margin-right: 50px;
     line-height: 20px; }
   .time__value {
-    font-size: 42px;
+    font-family: 'Uni Sans Heavy CAPS';
+    font-size: 56px;
     display: inline-block; }
   .time__text {
     font-size: 12px; }
   .time__about {
     display: inline-block;
     text-align: left;
-    width: 100px;
-    line-height: 35px; }
+    width: 120px;
+    line-height: 35px;
+    font-size: 27px; }
 
 .video {
   height: 305px;
@@ -202,11 +238,11 @@ body {
     color: #000;
     padding-bottom: 22px;
     margin-bottom: 55px;
+    font-weight: normal;
     background: url(../assets/images/blue-line.png) center bottom no-repeat; }
   .content__txt {
     color: #000;
     font-size: 16px;
-    font-weight: bold;
     margin-bottom: 55px; }
   .content__paragraph {
     width: 790px;
@@ -256,7 +292,8 @@ body {
     .manual__step--second {
       background: -webkit-gradient(linear, left top, right top, from(#accb30), to(#7cc730));
       background: linear-gradient(to right, #accb30, #7cc730);
-      position: relative; }
+      position: relative;
+      padding-right: 15px; }
       .manual__step--second:after {
         content: "";
         width: 226px;
@@ -269,6 +306,8 @@ body {
       background: -webkit-gradient(linear, left top, right top, from(#70c630), to(#69c173));
       background: linear-gradient(to right, #70c630, #69c173);
       position: relative; }
+      .manual__step--third .manual__text {
+        padding: 0 2px; }
       .manual__step--third:after {
         content: "";
         width: 226px;
@@ -279,12 +318,15 @@ body {
         background: url(../assets/images/arrow3.png) no-repeat; }
     .manual__step--fourth {
       background: -webkit-gradient(linear, left top, right top, from(#69bf97), to(#69bbd8));
-      background: linear-gradient(to right, #69bf97, #69bbd8); }
+      background: linear-gradient(to right, #69bf97, #69bbd8);
+      padding-left: 40px;
+      padding-right: 20px; }
   .manual__number {
+    font-family: 'LemonMilk';
     font-size: 25px;
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   .manual__title {
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 20px; }
   .manual__text {
     font-size: 14px; }

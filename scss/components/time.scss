@@ -10,7 +10,8 @@
 		line-height: 20px;
 	}
 	&__value {
-		font-size: 42px;
+		font-family: 'Uni Sans Heavy CAPS';
+		font-size: 56px;
 		display: inline-block;
 	}
 	&__text {
@@ -19,7 +20,8 @@
 	&__about {
 		display: inline-block;
 		text-align: left;
-		width: 100px;
+		width: 120px;
 		line-height: 35px;
+		font-size: 27px;
 	}
 }

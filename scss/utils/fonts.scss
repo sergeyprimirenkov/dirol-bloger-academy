@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Avenir Next Cyr';
+	src: url('../assets/fonts/AvenirNextCyr-Bold.eot');
+	src: local('Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
+		url('../assets/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/AvenirNextCyr-Bold.woff') format('woff'),
+		url('../assets/fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avenir Next Cyr';
+	src: url('../assets/fonts/AvenirNextCyr-Thin.eot');
+	src: local('Avenir Next Cyr Thin'), local('AvenirNextCyr-Thin'),
+		url('../assets/fonts/AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/AvenirNextCyr-Thin.woff') format('woff'),
+		url('../assets/fonts/AvenirNextCyr-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Uni Sans Heavy CAPS';
+	src: url('../assets/fonts/UniSansHeavyCAPS.eot');
+	src: local('Uni Sans Heavy CAPS'), local('UniSansHeavyCAPS'),
+		url('../assets/fonts/UniSansHeavyCAPS.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/UniSansHeavyCAPS.woff') format('woff'),
+		url('../assets/fonts/UniSansHeavyCAPS.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Paddis Handwritten';
+	src: url('../assets/fonts/PaddisHandwritten.eot');
+	src: local('Paddis Handwritten Medium'), local('PaddisHandwritten'),
+		url('../assets/fonts/PaddisHandwritten.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/PaddisHandwritten.woff') format('woff'),
+		url('../assets/fonts/PaddisHandwritten.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'LemonMilk';
+    src: url('../assets/fonts/LemonMilk.eot');
+    src: url('../assets/fonts/LemonMilk.eot') format('embedded-opentype'),
+         url('../assets/fonts/LemonMilk.woff2') format('woff2'),
+         url('../assets/fonts/LemonMilk.woff') format('woff'),
+         url('../assets/fonts/LemonMilk.ttf') format('truetype'),
+         url('../assets/fonts/LemonMilk.svg#LemonMilk') format('svg');
+}

@@ -10,17 +10,19 @@
 		left: -440px;
 	}
 	&__text {
-		font-size: 25px;
+		font-family: 'Paddis Handwritten';
+		font-size: 44px;
 		padding-right: 45px;
-		padding-bottom: 5px;
-		background: url(../assets/images/arrow-down.png) right 12px no-repeat;
+		background: url(../assets/images/arrow-down.png) right 20px no-repeat;
 	}
 	&__title {
+		font-family: 'Uni Sans Heavy CAPS';
 		font-size: 50px;
 		text-transform: uppercase;
-		margin-top: 25px;
+		margin-top: 5px;
 	}
 	&__subtitle {
+		font-family: 'Uni Sans Heavy CAPS';
 		font-size: 22px;
 		text-transform: uppercase;
 		padding-bottom: 11px;

@@ -38,6 +38,7 @@
 		&--second {
 			background: linear-gradient(to right, #accb30, #7cc730);
 			position: relative;
+			padding-right: 15px;
 				&:after {
 				content: "";
 				width: 226px;
@@ -51,6 +52,11 @@
 		&--third {
 			background: linear-gradient(to right, #70c630, #69c173);
 			position: relative;
+
+			.manual__text {
+					padding: 0 2px;
+				}
+
 				&:after {
 				content: "";
 				width: 226px;
@@ -63,14 +69,17 @@
 		}
 		&--fourth {
 			background: linear-gradient(to right, #69bf97, #69bbd8);
+			padding-left: 40px;
+			padding-right: 20px;
 		}
 	}
 	&__number {
+		font-family: 'LemonMilk';
 		font-size: 25px;
-		margin-bottom: 15px;
+		margin-bottom: 10px;
 	}
 	&__title {
-		font-size: 17px;
+		font-size: 18px;
 		margin-bottom: 20px;
 	}
 	&__text {
