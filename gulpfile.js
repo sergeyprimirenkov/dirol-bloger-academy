@@ -102,7 +102,11 @@ gulp.task('minify', function() {
 
 /*************************************WATCH************************************/
 gulp.task('watch', ['browser-sync', 'sass', 'css-libs', 'scripts'], function() {
-    gulp.watch('./scss/**/*.scss', ['sass']);
+    gulp.watch('./scss/**/*.scss', function () {
+        setTimeout(function () {
+        gulp.start('sass');
+        }, 1000);
+    });
     gulp.watch('./*.html', browserSync.reload);
     gulp.watch('./js/**/*.js', browserSync.reload);
 });

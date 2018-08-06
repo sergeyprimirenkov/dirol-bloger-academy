@@ -29,6 +29,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-uncss": "^1.0.5",
+    "gulp-wait": "0.0.2",
     "imagemin-pngquant": "^4.2.2",
     "magnific-popup": "^1.1.0"
   },

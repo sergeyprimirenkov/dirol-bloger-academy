@@ -1,0 +1,43 @@
+.gallery__list {
+	width: 991px;
+	margin: 0 auto;
+}
+
+.gallery__item {
+	&::after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+
+.gallery__item-logo,
+.gallery__item-video,
+.gallery__item-hello {
+	float: left;
+	margin-right: 30px;
+}
+
+.gallery__item-logo {
+	position: relative;
+	top: 16px;
+	left: 10px;
+	margin-left: 20px;
+}
+
+.gallery__item-hello {
+	margin: 0;
+	position: relative;
+	top: 20px;
+	width: 272px;
+}
+
+.gallery__hello-title {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 26px;
+}
+
+.gallery__hello {
+	font-size: 14px;
+}

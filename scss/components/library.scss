@@ -1,0 +1,56 @@
+.library {
+	padding-top: 38px;
+	padding-bottom: 34px;
+	font-size: 14px;
+	color: #000000;
+}
+
+.library__title {
+	position: relative;
+	margin-bottom: 69px;
+	font-size: 30px;
+	text-align: center;
+	&::after {
+		display: block;
+		content: '';
+		width: 267px;
+		height: 13px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		margin-left: -133px;
+		background: url(../assets/images/blue-line2.png);
+	}
+}
+
+.library__list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 860px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.library__item {
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	margin-right: 20px;
+	margin-bottom: 37px;
+	&:nth-child(4n) {
+		margin-right: 0;
+	}
+}
+
+.library__item-title {
+	font-size: 16px;
+	margin-bottom: 18px;
+}
+
+.library__item-mentor {
+	font-size: 14px;
+}
+
+.library__item-description {
+	font-size: 14px;
+}

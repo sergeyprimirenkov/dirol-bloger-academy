@@ -1,9 +1,24 @@
 .video {
-	height: 305px;
+	height: 304px;
 	width: 100%;
 	margin-bottom: 28px;
-
+	position: relative;
+	top: 25px;
+	background: black;
 	&:hover {
 		cursor: pointer;
+	}
+	&--medium {
+		width: 327px;
+		height: 184px;
+	}
+	&--mini {
+		width: 200px;
+		height: 113px;
+		margin-bottom: 19px;
+		background: black;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
