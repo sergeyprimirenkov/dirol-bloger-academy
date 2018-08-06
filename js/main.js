@@ -23,7 +23,8 @@ var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  grabCursor: true,
+  grabCursor: false,
+  noSwipingClass: 'gallery__item-hello',
 
   // If we need pagination
   pagination: {

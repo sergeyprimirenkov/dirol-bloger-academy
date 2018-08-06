@@ -59,8 +59,7 @@ body {
   background: url(../assets/images/main-bg.png) center/cover no-repeat, -webkit-gradient(linear, left top, left bottom, from(#3257c8), to(#448dcd));
   background: url(../assets/images/main-bg.png) center/cover no-repeat, linear-gradient(to bottom, #3257c8, #448dcd); }
   .main-bg--library {
-    padding-bottom: 15px;
-    background-size: 200% cover; }
+    padding-bottom: 15px; }
 
 .box {
   min-height: 350px; }
@@ -547,6 +546,16 @@ footer {
 .gallery__hello {
   font-size: 14px; }
 
+.gallery__list .swiper-container {
+  height: 280px; }
+
+.gallery__link {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff; }
+  .gallery__link:hover {
+    border: none; }
+
 .rating {
   position: relative;
   padding-top: 38px;
@@ -824,6 +833,44 @@ footer {
 .winners-week .swiper-button-next {
   right: -140px;
   background: url(../assets/images/right-arrow-winners.png) center no-repeat; }
+
+.share-links {
+  position: absolute;
+  bottom: 30px;
+  right: 170px;
+  width: 336px;
+  height: 50px;
+  z-index: 100; }
+  .share-links::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    width: 25px;
+    height: 18px;
+    background: url(../assets/images/left-arrow-share.png) center no-repeat; }
+
+.share-text {
+  display: inline-block;
+  margin-left: 50px;
+  width: 173px;
+  height: 23px;
+  background: url("../assets/images/share-text.png"); }
+
+.share-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  .share-link--yb {
+    background: url(../assets/images/facebook.png) center no-repeat; }
+  .share-link--fb {
+    background: url(../assets/images/facebook.png) center no-repeat; }
+  .share-link--in {
+    background: url(../assets/images/instagram.png) center no-repeat; }
 
 .gifts {
   position: relative;

@@ -41,3 +41,16 @@
 .gallery__hello {
 	font-size: 14px;
 }
+
+.gallery__list .swiper-container {
+	height: 280px;
+}
+
+.gallery__link {
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+	&:hover {
+		border: none;
+	}
+}
