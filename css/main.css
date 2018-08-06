@@ -208,7 +208,8 @@ body {
     cursor: pointer; }
   .video--medium {
     width: 327px;
-    height: 184px; }
+    height: 184px;
+    background: black; }
   .video--mini {
     width: 200px;
     height: 113px;
@@ -235,6 +236,8 @@ body {
     background: url(../assets/images/arrow-down-blue.png) no-repeat; }
   .info__link {
     color: #4186cc; }
+    .info__link:hover {
+      text-decoration: none; }
 
 .enter {
   width: 150px;
@@ -389,8 +392,12 @@ footer {
   background: url(../assets/images/footer-bg.png); }
 
 .popup-rules__text-wrapper {
+  width: 895px;
   height: 455px;
   overflow-y: scroll; }
+
+.popup-rules__text-wrapper .popup-rules__text {
+  padding-right: 30px; }
 
 .popup-rules__text {
   margin-bottom: 30px;
@@ -512,6 +519,7 @@ footer {
   font-size: 14px; }
 
 .gallery__list {
+  position: relative;
   width: 991px;
   margin: 0 auto; }
 
@@ -555,6 +563,20 @@ footer {
   border-bottom: 1px solid #ffffff; }
   .gallery__link:hover {
     border: none; }
+
+.gallery__list .swiper-button-prev,
+.gallery__list .swiper-container-rtl .swiper-button-next {
+  background-image: url(../assets/images/left-arrow-gallery.png);
+  top: 90px;
+  left: -30px;
+  right: auto; }
+
+.gallery__list .swiper-button-next,
+.gallery__list .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../assets/images/right-arrow-gallery.png);
+  top: 90px;
+  right: -30px;
+  left: auto; }
 
 .rating {
   position: relative;
@@ -888,3 +910,42 @@ footer {
     height: 295px;
     background: url(../assets/images/mentors-gifts.png) center top no-repeat;
     z-index: 1; }
+
+.share-links {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 340px;
+  height: 50px;
+  z-index: 100; }
+  .share-links::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    width: 25px;
+    height: 18px;
+    background: url(../assets/images/left-arrow-share.png) center no-repeat; }
+
+.share-text {
+  display: inline-block;
+  margin-left: 40px;
+  width: 173px;
+  height: 23px;
+  background: url("../assets/images/share-text.png"); }
+
+.share-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 3px;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  .share-link--yb {
+    background: url(../assets/images/youtube.png) center no-repeat; }
+  .share-link--fb {
+    background: url(../assets/images/facebook.png) center no-repeat; }
+  .share-link--in {
+    background: url(../assets/images/instagram.png) center no-repeat; }

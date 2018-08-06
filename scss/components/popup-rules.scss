@@ -33,8 +33,13 @@
 }
 
 .popup-rules__text-wrapper {
+  width: 895px;
   height: 455px;
   overflow-y: scroll;
+}
+
+.popup-rules__text-wrapper .popup-rules__text {
+  padding-right: 30px;
 }
 
 .popup-rules__text {

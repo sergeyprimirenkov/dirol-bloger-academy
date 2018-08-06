@@ -1,8 +1,8 @@
 .share-links {
   position: absolute;
-  bottom: 30px;
-  right: 170px;
-  width: 336px;
+  bottom: 20px;
+  right: 0;
+  width: 340px;
   height: 50px;
   z-index: 100;
   &::before {
@@ -19,7 +19,7 @@
 
 .share-text {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 40px;
   width: 173px;
   height: 23px;
   background: url('../assets/images/share-text.png');
@@ -29,10 +29,11 @@
   display: inline-block;
   width: 32px;
   height: 32px;
-  border: 1px solid #ffffff;
+  margin-right: 3px;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   &--yb {
-    background: url(../assets/images/facebook.png)center no-repeat;
+    background: url(../assets/images/youtube.png)center no-repeat;
   }
   &--fb {
     background: url(../assets/images/facebook.png)center no-repeat;

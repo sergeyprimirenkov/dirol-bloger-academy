@@ -1,4 +1,5 @@
 .gallery__list {
+	position: relative;
 	width: 991px;
 	margin: 0 auto;
 }
@@ -53,4 +54,19 @@
 	&:hover {
 		border: none;
 	}
+}
+
+.gallery__list .swiper-button-prev,
+.gallery__list .swiper-container-rtl .swiper-button-next {
+  background-image: url(../assets/images/left-arrow-gallery.png);
+  top: 90px;
+  left: -30px;
+  right: auto;
+}
+.gallery__list .swiper-button-next,
+.gallery__list .swiper-container-rtl .swiper-button-prev {
+  background-image: url(../assets/images/right-arrow-gallery.png);
+  top: 90px;
+  right: -30px;
+  left: auto;
 }
