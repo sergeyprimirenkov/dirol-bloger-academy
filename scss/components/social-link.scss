@@ -1,0 +1,16 @@
+.social-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  border-radius: 50%;
+  &:first-child {
+    margin-right: 10px;
+  }
+  &--fb {
+    background: url(../assets/images/facebook.png) center no-repeat;
+  }
+  &--in {
+    background: url(../assets/images/instagram.png) center no-repeat;
+  }
+}
