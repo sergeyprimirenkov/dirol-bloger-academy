@@ -546,3 +546,336 @@ footer {
 
 .gallery__hello {
   font-size: 14px; }
+
+.rating {
+  position: relative;
+  padding-top: 38px;
+  width: 956px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #000000; }
+
+.rating__title {
+  position: relative;
+  margin-bottom: 69px;
+  font-size: 30px;
+  text-align: center; }
+  .rating__title::after {
+    display: block;
+    content: '';
+    width: 267px;
+    height: 13px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -133px;
+    background: url(../assets/images/blue-line2.png); }
+
+.rating__search {
+  position: relative;
+  width: 760px;
+  margin: 0 auto;
+  margin-bottom: 15px; }
+  .rating__search input {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #cccccc; }
+    .rating__search input::-webkit-input-placeholder {
+      font-size: 14px;
+      color: #cccccc; }
+    .rating__search input::-moz-placeholder {
+      font-size: 14px;
+      color: #cccccc; }
+    .rating__search input:-ms-input-placeholder {
+      font-size: 14px;
+      color: #cccccc; }
+    .rating__search input::placeholder {
+      font-size: 14px;
+      color: #cccccc; }
+    .rating__search input::-webkit-search-cancel-button {
+      display: none; }
+
+.rating__search-button {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../assets/images/search.png) center no-repeat;
+  border: none; }
+  .rating__search-button:hover {
+    cursor: pointer; }
+
+.social-link {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 0;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  .social-link:first-child {
+    margin-right: 10px; }
+  .social-link--fb {
+    background: url(../assets/images/facebook.png) center no-repeat; }
+  .social-link--in {
+    background: url(../assets/images/instagram.png) center no-repeat; }
+
+.hand-written {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  font-family: 'Paddis Handwritten', Arial, sans-serif;
+  font-size: 44px;
+  color: #4e91d0; }
+
+.rating-table {
+  position: relative;
+  width: 796px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  border-right: 3px solid #3506d1;
+  border-bottom: 3px solid #ad0a89;
+  border-left: 3px solid #e10019;
+  border-top: 3px solid #a70c98;
+  border-spacing: 0;
+  font-weight: bold; }
+  .rating-table::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -77px;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background: url(../assets/images/table-footer.png) center no-repeat; }
+
+.rating-table th,
+.rating-table td {
+  padding: 5px 4px;
+  text-align: center; }
+  .rating-table th:nth-child(2),
+  .rating-table td:nth-child(2) {
+    text-align: left;
+    padding-left: 16px; }
+
+.rating-table td {
+  border-left: 1px solid #e8e7e5;
+  border-bottom: 1px solid #e8e7e5; }
+  .rating-table td:last-child {
+    border-right: 1px solid #e8e7e5;
+    border-bottom: 1px solid #e8e7e5; }
+
+.rating-table__header th {
+  font-weight: 100;
+  border: none;
+  border-bottom: 1px solid #e8e7e5;
+  color: #b2b2b2; }
+
+.rating-table th:first-child,
+.rating-table td:first-child {
+  width: 60px; }
+
+.rating-table th:nth-child(3),
+.rating-table td:nth-child(3) {
+  width: 113px; }
+
+.rating-table th:last-child,
+.rating-table td:last-child {
+  width: 125px; }
+
+.rating-table__favourite {
+  border-color: #ff9c01; }
+  .rating-table__favourite td {
+    color: #ff9c01; }
+
+.rating__more {
+  display: block;
+  position: absolute;
+  bottom: -38px;
+  left: 50%;
+  width: 277px;
+  height: 38px;
+  padding-top: 14px;
+  padding-bottom: 6px;
+  margin-left: -138px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f13251), color-stop(51%, #f21d05), to(#fb8c05));
+  background: linear-gradient(to top, #f13251 0%, #f21d05 51%, #fb8c05 100%);
+  -webkit-border-bottom-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+  -webkit-border-bottom-left-radius: 25px;
+          border-bottom-left-radius: 25px; }
+
+.winners-week {
+  position: relative;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #000000; }
+
+.winners-week__title {
+  position: relative;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .winners-week__title::before, .winners-week__title::after {
+    display: block;
+    content: '';
+    position: absolute; }
+  .winners-week__title::after {
+    bottom: -15px;
+    left: 50%;
+    margin-left: -245px;
+    right: 0;
+    width: 490px;
+    height: 15px;
+    background: url(../assets/images/blue-line-long.png) center no-repeat; }
+
+.winners-week__list {
+  position: relative;
+  width: 677px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  font-size: 36px;
+  text-align: left;
+  color: #ff7002;
+  text-transform: uppercase; }
+  .winners-week__list li {
+    position: relative;
+    padding: 10px 0;
+    padding-left: 205px;
+    margin-bottom: 3px;
+    border: 3px solid #ffa301;
+    -webkit-border-radius: 34px;
+            border-radius: 34px; }
+    .winners-week__list li::before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 12px;
+      left: 160px;
+      width: 32px;
+      height: 33px;
+      background: url(../assets/images/cup.png) center no-repeat; }
+    .winners-week__list li:last-child {
+      margin: 0; }
+
+.winners-week__list .social-link {
+  position: absolute;
+  top: 15px;
+  z-index: 10; }
+  .winners-week__list .social-link--fb {
+    right: 59px; }
+  .winners-week__list .social-link--in {
+    right: 17px; }
+
+.winners-week__wrapper {
+  position: relative;
+  width: 677px;
+  margin-left: auto;
+  margin-right: auto; }
+  .winners-week__wrapper::before, .winners-week__wrapper::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 228px;
+    height: 349px; }
+  .winners-week__wrapper::before {
+    width: 339px;
+    height: 403px;
+    top: -104px;
+    left: -155px;
+    background: url(../assets/images/splash-left-mentor.png) center no-repeat;
+    z-index: 100; }
+  .winners-week__wrapper::after {
+    top: -50px;
+    right: -140px;
+    background: url(../assets/images/splash-right.png) center no-repeat; }
+
+.winners-week .swiper-pagination-bullet {
+  border: 2px solid #4289cd; }
+
+.winners-week .swiper-pagination-bullet-active {
+  background: #4289cd;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.winners-week .swiper-button-prev,
+.winners-week .swiper-button-next {
+  width: 22px;
+  height: 80px;
+  top: 140px;
+  background-size: 22px 80px;
+  z-index: 100; }
+
+.winners-week .swiper-button-prev {
+  left: -140px;
+  background: url(../assets/images/left-arrow-winners.png) center no-repeat; }
+
+.winners-week .swiper-button-next {
+  right: -140px;
+  background: url(../assets/images/right-arrow-winners.png) center no-repeat; }
+
+.gifts {
+  position: relative;
+  width: 926px;
+  height: 333px;
+  margin: 0 auto; }
+
+.gifts__logo {
+  position: absolute;
+  top: -41px;
+  left: -50px;
+  z-index: 10; }
+
+.gifts__list {
+  position: absolute;
+  width: 512px;
+  height: 264px;
+  list-style: none;
+  z-index: 2; }
+
+.gifts__list-item {
+  position: absolute;
+  bottom: 0;
+  width: 157px;
+  height: 157px;
+  background: #ffffff;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+  .gifts__list-item:first-child {
+    left: 0; }
+  .gifts__list-item:nth-child(2) {
+    width: 265px;
+    height: 264px;
+    left: 120px; }
+  .gifts__list-item:last-child {
+    right: -15px;
+    width: 184px;
+    height: 184px; }
+
+.gifts__list-wrapper {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: 512px;
+  height: 264px; }
+  .gifts__list-wrapper::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: -70px;
+    right: -50px;
+    width: 504px;
+    height: 295px;
+    background: url(../assets/images/mentors-gifts.png) center top no-repeat;
+    z-index: 1; }
