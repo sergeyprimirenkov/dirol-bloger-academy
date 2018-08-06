@@ -1,0 +1,62 @@
+.rating {
+  position: relative;
+  padding-top: 38px;
+  width: 956px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #000000;
+}
+
+.rating__title {
+  position: relative;
+  margin-bottom: 69px;
+  font-size: 30px;
+  text-align: center;
+  &::after {
+    display: block;
+    content: '';
+    width: 267px;
+    height: 13px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -133px;
+    background: url(../assets/images/blue-line2.png);
+  }
+}
+
+.rating__search {
+  position: relative;
+  width: 760px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  input {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    &::placeholder {
+      font-size: 14px;
+      color: #cccccc;
+    }
+    &::-webkit-search-cancel-button {
+      display: none;
+    }
+  }
+}
+
+.rating__search-button {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../assets/images/search.png) center no-repeat;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
