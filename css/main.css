@@ -55,6 +55,11 @@ body {
     .container {
       width: auto; } }
 
+.banner {
+  overflow: hidden; }
+  .banner--library {
+    overflow: visible; }
+
 .main-bg {
   position: relative;
   padding-bottom: 290px;
@@ -1188,7 +1193,15 @@ footer {
   .rating-table .social-link {
     width: 24px;
     height: 24px;
-    background-size: 24px 24px; } }
+    background-size: 24px 24px; }
+  .rating__more {
+    width: 202px;
+    height: 28px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: -101px;
+    font-size: 9px;
+    bottom: -28px; } }
 
 .winners-week {
   position: relative;
@@ -1313,7 +1326,7 @@ footer {
     height: 10px;
     background-size: 300px 10px; }
   .winners-week__wrapper {
-    width: auto; }
+    width: 320px; }
   .winners-week__list {
     width: 282px; }
   .winners-week__list li {
@@ -1407,8 +1420,7 @@ footer {
 @media (max-width: 1023px) {
   .gifts {
     width: 320px;
-    height: 350px;
-    overflow: hidden; }
+    height: 350px; }
   .gifts__logo {
     position: static;
     width: 234px;
