@@ -42,3 +42,19 @@
     background: url(../assets/images/instagram.png)center no-repeat;
   }
 }
+
+@media #{$mobile-width} {
+  .share-links {
+    width: 280px;
+    right: 0;
+  }
+  .share-text {
+    width: 135px;
+    height: 34px;
+    position: relative;
+    top: 11px;
+    right: 5px;
+    margin-left: 20px;
+    background: url("../assets/images/share-text-small.png") center no-repeat;
+  }
+}

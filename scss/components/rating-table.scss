@@ -89,3 +89,22 @@
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }
+
+@media #{$mobile-width} {
+  .rating-table {
+    width: 320px;
+    font-size: 10px;
+  }
+  .rating-table td:first-child {
+    width: 50px;
+    padding: 5px 0;
+  }
+  .rating-table td:nth-child(2) {
+    width: 121px;
+  }
+  .rating-table .social-link {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+  }
+}

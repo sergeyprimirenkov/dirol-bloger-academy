@@ -60,3 +60,12 @@
     cursor: pointer;
   }
 }
+
+@media #{$mobile-width} {
+  .rating {
+    width: 320px;
+  }
+  .rating__search {
+    width: 301px;
+  }
+}

@@ -111,7 +111,7 @@
   box-shadow: none;
 }
 
-.winners-week .swiper-button-prev, 
+.winners-week .swiper-button-prev,
 .winners-week .swiper-button-next {
   width: 22px;
   height: 80px;
@@ -128,4 +128,69 @@
 .winners-week .swiper-button-next {
   right: -140px;
   background: url(../assets/images/right-arrow-winners.png) center no-repeat;
+}
+
+@media #{$mobile-width} {
+  .winners-week__title {
+    font-size: 18px;
+  }
+  .hand-written {
+    font-size: 27px;
+    top: 3px;
+    left: 10px;
+  }
+  .winners-week__title::after {
+    margin-left: -150px;
+    width: 300px;
+    height: 10px;
+    background-size: 300px 10px;
+  }
+  .winners-week__wrapper {
+    width: auto;
+  }
+  .winners-week__list {
+    width: 282px;
+  }
+  .winners-week__list li {
+   padding: 10px 0;
+   padding-left: 55px;
+   font-size: 16px; 
+  }
+  .winners-week__list li::before {
+    top: 7px;
+    left: 20px;
+    width: 24px;
+    height: 25px;
+    background-size: 24px 25px;
+  }
+  .winners-week__list .social-link {
+    top: 2px;
+    background-size: 24px 24px;
+  }
+  .winners-week__list .social-link--fb {
+    right: 40px;
+  }
+  .winners-week__list .social-link--in {
+    right: 8px;
+  }
+  .winners-week__wrapper::before,
+  .winners-week__wrapper::after {
+    display: none;
+  }
+  .winners-week .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0;
+  }
+  .winners-week .swiper-button-prev {
+    background: url(../assets/images/arrow-left-blue.png) center no-repeat;
+    top: 137px;
+    left: 40px;
+  }
+  .winners-week .swiper-button-next {
+    background: url(../assets/images/arrow-right-blue.png) center no-repeat;
+    top: 137px;
+    right: 40px;
+  }
+  .winners-week .swiper-container {
+    height: 185px;
+  }
 }

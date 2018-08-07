@@ -1,6 +1,6 @@
 .gallery__list {
   position: relative;
-  width: 991px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@
 .gallery__list .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/images/left-arrow-gallery.png);
   top: 90px;
-  left: -10px;
+  left: -30px;
   right: auto;
 }
 
@@ -68,7 +68,7 @@
 .gallery__list .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/images/right-arrow-gallery.png);
   top: 90px;
-  right: -10px;
+  right: -30px;
   left: auto;
 }
 
@@ -133,12 +133,12 @@
     }
   }
   .gallery__list .swiper-button-prev {
-    top: 477px;
+    top: 482px;
     left: 40px;
     background-image: url(../assets/images/arrow-left-blue.png);
   }
   .gallery__list .swiper-button-next {
-    top: 477px;
+    top: 482px;
     right: 40px;
     background-image: url(../assets/images/arrow-right-blue.png);
   }

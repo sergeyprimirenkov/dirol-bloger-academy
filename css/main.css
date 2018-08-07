@@ -867,7 +867,7 @@ footer {
 
 .gallery__list {
   position: relative;
-  width: 991px;
+  width: 960px;
   margin: 0 auto; }
 
 .gallery__item::after {
@@ -915,14 +915,14 @@ footer {
 .gallery__list .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/images/left-arrow-gallery.png);
   top: 90px;
-  left: -10px;
+  left: -30px;
   right: auto; }
 
 .gallery__list .swiper-button-next,
 .gallery__list .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/images/right-arrow-gallery.png);
   top: 90px;
-  right: -10px;
+  right: -30px;
   left: auto; }
 
 @media (max-width: 1023px) {
@@ -977,11 +977,11 @@ footer {
       border: 3px solid #fb8605;
       border-bottom: 3px solid #f1304c; }
   .gallery__list .swiper-button-prev {
-    top: 477px;
+    top: 482px;
     left: 40px;
     background-image: url(../assets/images/arrow-left-blue.png); }
   .gallery__list .swiper-button-next {
-    top: 477px;
+    top: 482px;
     right: 40px;
     background-image: url(../assets/images/arrow-right-blue.png); }
   .swiper-button-prev,
@@ -1064,6 +1064,12 @@ footer {
   border: none; }
   .rating__search-button:hover {
     cursor: pointer; }
+
+@media (max-width: 1023px) {
+  .rating {
+    width: 320px; }
+  .rating__search {
+    width: 301px; } }
 
 .social-link {
   display: inline-block;
@@ -1169,6 +1175,20 @@ footer {
           border-bottom-right-radius: 25px;
   -webkit-border-bottom-left-radius: 25px;
           border-bottom-left-radius: 25px; }
+
+@media (max-width: 1023px) {
+  .rating-table {
+    width: 320px;
+    font-size: 10px; }
+  .rating-table td:first-child {
+    width: 50px;
+    padding: 5px 0; }
+  .rating-table td:nth-child(2) {
+    width: 121px; }
+  .rating-table .social-link {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px; } }
 
 .winners-week {
   position: relative;
@@ -1280,6 +1300,55 @@ footer {
   right: -140px;
   background: url(../assets/images/right-arrow-winners.png) center no-repeat; }
 
+@media (max-width: 1023px) {
+  .winners-week__title {
+    font-size: 18px; }
+  .hand-written {
+    font-size: 27px;
+    top: 3px;
+    left: 10px; }
+  .winners-week__title::after {
+    margin-left: -150px;
+    width: 300px;
+    height: 10px;
+    background-size: 300px 10px; }
+  .winners-week__wrapper {
+    width: auto; }
+  .winners-week__list {
+    width: 282px; }
+  .winners-week__list li {
+    padding: 10px 0;
+    padding-left: 55px;
+    font-size: 16px; }
+  .winners-week__list li::before {
+    top: 7px;
+    left: 20px;
+    width: 24px;
+    height: 25px;
+    background-size: 24px 25px; }
+  .winners-week__list .social-link {
+    top: 2px;
+    background-size: 24px 24px; }
+  .winners-week__list .social-link--fb {
+    right: 40px; }
+  .winners-week__list .social-link--in {
+    right: 8px; }
+  .winners-week__wrapper::before,
+  .winners-week__wrapper::after {
+    display: none; }
+  .winners-week .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0; }
+  .winners-week .swiper-button-prev {
+    background: url(../assets/images/arrow-left-blue.png) center no-repeat;
+    top: 137px;
+    left: 40px; }
+  .winners-week .swiper-button-next {
+    background: url(../assets/images/arrow-right-blue.png) center no-repeat;
+    top: 137px;
+    right: 40px; }
+  .winners-week .swiper-container {
+    height: 185px; } }
+
 .gifts {
   position: relative;
   width: 926px;
@@ -1335,6 +1404,49 @@ footer {
     background: url(../assets/images/mentors-gifts.png) center top no-repeat;
     z-index: 1; }
 
+@media (max-width: 1023px) {
+  .gifts {
+    width: 320px;
+    height: 350px;
+    overflow: hidden; }
+  .gifts__logo {
+    position: static;
+    width: 234px;
+    height: 131px;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .gifts__logo img {
+    width: 234px;
+    height: 131px; }
+  .gifts__list-wrapper {
+    width: 320px;
+    height: 176px;
+    position: static; }
+  .gifts__list-wrapper::after {
+    top: 74px;
+    right: -108px;
+    width: 466px;
+    height: 284px;
+    background: url(../assets/images/mentors-gifts-small.png) center top no-repeat; }
+  .gifts__list {
+    width: 320px;
+    height: 176px; }
+  .gifts__list-item:first-child {
+    width: 105px;
+    height: 105px;
+    left: -14px; }
+  .gifts__list-item:nth-child(2) {
+    width: 176px;
+    height: 176px;
+    left: 70px; }
+  .gifts__list-item:last-child {
+    width: 123px;
+    height: 123px;
+    right: -14px; }
+  .main-bg--gifts {
+    height: auto;
+    padding-bottom: 10px; } }
+
 .share-links {
   position: absolute;
   bottom: 20px;
@@ -1373,3 +1485,16 @@ footer {
     background: url(../assets/images/facebook.png) center no-repeat; }
   .share-link--in {
     background: url(../assets/images/instagram.png) center no-repeat; }
+
+@media (max-width: 1023px) {
+  .share-links {
+    width: 280px;
+    right: 0; }
+  .share-text {
+    width: 135px;
+    height: 34px;
+    position: relative;
+    top: 11px;
+    right: 5px;
+    margin-left: 20px;
+    background: url("../assets/images/share-text-small.png") center no-repeat; } }

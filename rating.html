@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dirol Blogger Academy - Рейтинг учасників</title>
   <link rel="stylesheet" href="css/jquery.scrollbar.css">
   <link rel="stylesheet" href="css/swiper.css">
@@ -12,10 +13,11 @@
 <body>
 
   <section class="banner">
-    <div class="main-bg  main-bg--library">
+    <div class="main-bg  main-bg--library main-bg--gifts">
       <div class="container">
         <header class="page-header clearfix">
-          <nav class="main-nav">
+          <nav class="main-nav  main-nav--closed">
+              <button class="main-nav__toggle" type="button">Открыть меню</button>
             <ul class="main-nav__list">
               <li class="main-nav__item">
                 <a href="#" id="popup-toggle" class="main-nav__link">Правила</a>
@@ -62,9 +64,9 @@
     </h2>
     <div class="winners-week__wrapper">
       <div class="swiper-container">
-        <!-- Additional required wrapper -->
+        
         <div class="swiper-wrapper">
-          <!-- Slides -->
+          
           <div class="swiper-slide">
             <ul class="winners-week__list">
               <li>
@@ -217,12 +219,12 @@
                 </div>
 
         </div>
-        <!-- If we need pagination -->
+        
         <div class="swiper-pagination"></div>
-        <!-- If we need scrollbar -->
+        
         <div class="swiper-scrollbar"></div>
       </div>
-      <!-- If we need navigation buttons -->
+      
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>

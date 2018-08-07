@@ -60,3 +60,57 @@
     z-index: 1;
   }
 }
+
+@media #{$mobile-width} {
+  .gifts {
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+  }
+  .gifts__logo {
+    position: static;
+    width: 234px;
+    height: 131px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .gifts__logo img {
+    width: 234px;
+    height: 131px;
+  }
+  .gifts__list-wrapper {
+    width: 320px;
+    height: 176px;
+    position: static;
+  }
+  .gifts__list-wrapper::after {
+    top: 74px;
+    right: -108px;
+    width: 466px;
+    height: 284px;
+    background: url(../assets/images/mentors-gifts-small.png) center top no-repeat;
+  }
+  .gifts__list {
+    width: 320px;
+    height: 176px;
+  }
+  .gifts__list-item:first-child {
+    width: 105px;
+    height: 105px;
+    left: -14px;
+  }
+  .gifts__list-item:nth-child(2) {
+    width: 176px;
+    height: 176px;
+    left: 70px;
+  }
+  .gifts__list-item:last-child {
+    width: 123px;
+    height: 123px;
+    right: -14px;
+  }
+  .main-bg--gifts {
+    height: auto;
+    padding-bottom: 10px;
+  }
+}
