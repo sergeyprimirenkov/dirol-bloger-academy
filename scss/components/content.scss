@@ -1,25 +1,24 @@
 .content {
-	padding-top: 40px;
-	padding-bottom: 130px;
-	text-align: center;
-
-	&__title {
-		font-size: 30px;
-		color: #000;
-		padding-bottom: 22px;
-		margin-bottom: 55px;
-		font-weight: normal;
-		background: url(../assets/images/blue-line.png) center bottom no-repeat;
-	}
-	&__txt {
-		color: #000;
-		font-size: 16px;
-		margin-bottom: 55px;
-	}
-	&__paragraph {
-		width: 790px;
-		font-size: 18px;
-		color: #000;
-		margin: 0 auto;
-	}
+  padding-top: 40px;
+  padding-bottom: 130px;
+  text-align: center;
+  &__title {
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 22px;
+    margin-bottom: 55px;
+    font-weight: normal;
+    background: url(../assets/images/blue-line.png) center bottom no-repeat;
+  }
+  &__txt {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 55px;
+  }
+  &__paragraph {
+    width: 790px;
+    font-size: 18px;
+    color: #000;
+    margin: 0 auto;
+  }
 }

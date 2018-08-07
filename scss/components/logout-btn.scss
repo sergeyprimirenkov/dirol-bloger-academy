@@ -1,21 +1,20 @@
 .logout-btn {
-	position: relative;
-	float:right;
-
-	&__description {
-		position: absolute;
-		height: 70px;
-		width: 275px;
-		background: url(../assets/images/left-arrow.png) left center no-repeat, url(../assets/images/right-arrow.png) right bottom no-repeat;
-		top: 30px;
-		right: -5px;
-		padding-left: 40px;
-		padding-right: 35px;
-		padding-bottom: 4px;
-		text-align: center;
-		padding-top: 35px;
-	}
-	&:hover {
-		cursor: pointer;
-	}
+  position: relative;
+  float: right;
+  &__description {
+    position: absolute;
+    height: 70px;
+    width: 275px;
+    background: url(../assets/images/left-arrow.png) left center no-repeat, url(../assets/images/right-arrow.png) right bottom no-repeat;
+    top: 30px;
+    right: -5px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-bottom: 4px;
+    text-align: center;
+    padding-top: 35px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }

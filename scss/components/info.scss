@@ -1,26 +1,24 @@
 .info {
-	color: #000;
-	font-size: 18px;
-	text-align: center;
-	width: 390px;
-	margin: 0 auto;
-	margin-bottom: 17px;
-	position: relative;
-
-	&:after {
-		content: "";
-		width: 47px;
-		height: 44px;
-		position: absolute;
-		top: 30px;
-		right: -60px;
-		background: url(../assets/images/arrow-down-blue.png) no-repeat;
-}
-
-	&__link {
-		color: #4186cc;
-		&:hover {
-			text-decoration: none;
-		}
-	}
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  width: 390px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+  position: relative;
+  &:after {
+    content: "";
+    width: 47px;
+    height: 44px;
+    position: absolute;
+    top: 30px;
+    right: -60px;
+    background: url(../assets/images/arrow-down-blue.png) no-repeat;
+  }
+  &__link {
+    color: #4186cc;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

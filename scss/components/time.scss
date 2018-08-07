@@ -1,27 +1,26 @@
 .time {
-	font-size: 22px;
-	padding-left: 35px;
-	padding-right: 35px;
-
-	&__date {
-		display: inline-block;
-		text-align: center;
-		margin-right: 50px;
-		line-height: 20px;
-	}
-	&__value {
-		font-family: 'Uni Sans Heavy CAPS';
-		font-size: 56px;
-		display: inline-block;
-	}
-	&__text {
-		font-size: 12px;
-	}
-	&__about {
-		display: inline-block;
-		text-align: left;
-		width: 120px;
-		line-height: 35px;
-		font-size: 27px;
-	}
+  font-size: 22px;
+  padding-left: 35px;
+  padding-right: 35px;
+  &__date {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    line-height: 20px;
+  }
+  &__value {
+    font-family: 'Uni Sans Heavy CAPS';
+    font-size: 56px;
+    display: inline-block;
+  }
+  &__text {
+    font-size: 12px;
+  }
+  &__about {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    line-height: 35px;
+    font-size: 27px;
+  }
 }
