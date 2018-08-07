@@ -3,8 +3,8 @@ footer {
   background: url(../assets/images/footer-bg.png) center no-repeat;
 }
 
-@media #{$mobile-width} {
-  footer {
-    background-position-x: -980px;
-  }
-}
+// @media #{$mobile-width} {
+//   footer {
+//     background-position-x: -980px;
+//   }
+// }

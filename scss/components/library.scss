@@ -54,3 +54,25 @@
 .library__item-description {
   font-size: 14px;
 }
+
+@media #{$mobile-width} {
+  .library {
+    margin-top: 320px;
+  }
+  .library__title {
+    margin-bottom: 90px;
+  }
+  .library__list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .library__item {
+    width: 271px;
+    margin-right: 0;
+  }
+  .library__item .video--mini {
+    width: 271px;
+    height: 153px;
+  }
+}

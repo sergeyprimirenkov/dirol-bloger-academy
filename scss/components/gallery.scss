@@ -60,7 +60,7 @@
 .gallery__list .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/images/left-arrow-gallery.png);
   top: 90px;
-  left: -30px;
+  left: -10px;
   right: auto;
 }
 
@@ -68,6 +68,100 @@
 .gallery__list .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/images/right-arrow-gallery.png);
   top: 90px;
-  right: -30px;
+  right: -10px;
   left: auto;
+}
+
+@media #{$mobile-width} {
+  .main-bg--library {
+    height: 560px;
+    padding: 0;
+  }
+  .gallery__list {
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .gallery__list .swiper-container {
+    height: 735px;
+    position: relative;
+    top: -15px;
+  }
+  .gallery__item-logo {
+    float: none;
+    position: relative;
+    top: 6px;
+    left: 10px;
+    margin-bottom: 30px;
+  }
+  .gallery__item-video {
+    float: none;
+    margin: 0;
+  }
+  .video--medium {
+    display: block;
+    margin: 0 auto;
+    width: 271px;
+    height: 184px;
+  }
+  .gallery__item-hello {
+    float: none;
+    top: 170px;
+    margin: 0 auto;
+    color: #000000;
+  }
+  .gallery__hello-title {
+    font-size: 24px;
+  }
+  .gallery__link {
+    display: block;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+    padding: 8px 18px;
+    margin-top: 20px;
+    background: transparent;
+    border: 3px solid #fb8605;
+    border-bottom: 3px solid #f1304c;
+    border-radius: 25px;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #000000;
+    &:hover {
+      border: 3px solid #fb8605;
+      border-bottom: 3px solid #f1304c;
+    }
+  }
+  .gallery__list .swiper-button-prev {
+    top: 477px;
+    left: 40px;
+    background-image: url(../assets/images/arrow-left-blue.png);
+  }
+  .gallery__list .swiper-button-next {
+    top: 477px;
+    right: 40px;
+    background-image: url(../assets/images/arrow-right-blue.png);
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 11px;
+    height: 21px;
+    margin-top: 0;
+    background-size: 11px 21px;
+  }
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    border: 2px solid #4289cd;
+  }
+  .swiper-pagination-bullet-active {
+    border: none;
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 220px;
+  }
+  .share-links {
+    top: 390px;
+  }
 }

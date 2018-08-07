@@ -52,8 +52,6 @@
 
 .popup-rules__discet,
 .popup-rules__print {
-  position: absolute;
-  top: 15px;
   width: 32px;
   height: 32px;
   border: none;
@@ -61,12 +59,11 @@
 }
 
 .popup-rules__discet {
-  right: 115px;
   background: url(../assets/images/discet.png) center no-repeat;
+  margin-right: 20px;
 }
 
 .popup-rules__print {
-  right: 65px;
   background: url(../assets/images/print.png) center no-repeat;
 }
 
@@ -104,6 +101,14 @@
   }
 }
 
+.popup-rules__button-wrapper {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+}
+
 .popup-wrapper {
   display: none;
   position: absolute;
@@ -135,6 +140,13 @@
   .popup-rules__text-wrapper {
     width: auto;
     max-height: 406px;
+  }
+  .popup-rules__button-wrapper {
+    width: 100px;
+    height: 32px;
+    top: 75px;
+    right: 50%;
+    margin-right: -60px;
   }
   .popup-rules__footer {
     display: none;

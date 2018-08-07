@@ -17,6 +17,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
+    background: transparent;
     transition: border 0.2s;
     &:hover {
       border-bottom: 4px solid #fff;
@@ -45,7 +46,7 @@
     left: 0;
     width: 62px;
     height: 52px;
-    z-index: 10000;
+    z-index: 999;
     display: block;
     font-size: 0;
     border: none;
@@ -67,7 +68,7 @@
   }
   .main-nav__item {
     display: block;
-    padding-left: 16px;
+    //padding-left: 16px;
     margin: 0;
     line-height: 50px;
     border-bottom: 1px solid #68a1d7;
@@ -79,7 +80,13 @@
     }
   }
   .main-nav__link {
+    display: block;
+    padding-left: 16px;
     &:hover {
+      border: none;
+    }
+    &--active {
+      background: #4e8cd3;
       border: none;
     }
   }
@@ -98,7 +105,7 @@
   top: 52px;
   left: 0;
   right: 0;
-  z-index: 10000;
+  z-index: 999;
   background: #4289cd;
 }
 
