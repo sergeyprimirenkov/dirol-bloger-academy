@@ -3,6 +3,20 @@ var popup = document.getElementById('modal');
 var close = document.getElementById('modal-close');
 var popupWrapper = document.querySelector('.popup-wrapper');
 
+var navMain = document.querySelector(".main-nav");
+var navToggle = document.querySelector(".main-nav__toggle");
+navToggle.addEventListener("click", function () {
+  if (navMain.classList.contains("main-nav--closed")) {
+    navMain.classList.remove("main-nav--closed");
+    navMain.classList.add("main-nav--opened");
+    popupWrapper.style.display = 'block';
+  } else {
+    navMain.classList.add("main-nav--closed");
+    navMain.classList.remove("main-nav--opened");
+    popupWrapper.style.display = 'none';
+  }
+});
+
 popupToggle.addEventListener('click', function (e) {
   e.preventDefault();
   popup.classList.add('popup-rules--open');

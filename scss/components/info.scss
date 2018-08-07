@@ -22,3 +22,20 @@
     }
   }
 }
+
+@media #{$mobile-width} {
+  .info {
+    top: 120px;
+    width: auto;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 12px;
+    &::after {
+      top: 35px;
+      right: 50px;
+      width: 29px;
+      height: 32px;
+      background-size: 29px 32px;
+    }
+  }
+}

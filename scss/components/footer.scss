@@ -2,3 +2,9 @@ footer {
   height: 157px;
   background: url(../assets/images/footer-bg.png) center no-repeat;
 }
+
+@media #{$mobile-width} {
+  footer {
+    background-position-x: -980px;
+  }
+}

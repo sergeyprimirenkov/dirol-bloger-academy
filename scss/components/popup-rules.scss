@@ -114,3 +114,44 @@
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1000;
 }
+
+@media #{$mobile-width} {
+  .popup-rules {
+    width: 80%;
+    min-width: 280px;
+    height: auto;
+    top: 53px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+  .popup-rules__title {
+    padding-bottom: 90px;
+    margin-bottom: 0;
+  }
+  .popup-rules__text-wrapper {
+    width: auto;
+    max-height: 406px;
+  }
+  .popup-rules__footer {
+    display: none;
+  }
+  .scrollbar-rail>.scroll-element .scroll-element_size {
+    background-color: #ab0b29;
+  }
+  .scrollbar-rail>.scroll-element .scroll-bar {
+    background-color: #da022b;
+  }
+  .popup-rules__discet, .popup-rules__print {
+    top: 70px;
+  }
+  .popup-rules__discet {
+    right: 145px;
+  }
+  .popup-rules__print {
+    right: 95px;
+  }
+}

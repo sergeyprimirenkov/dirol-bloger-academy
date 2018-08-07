@@ -24,3 +24,27 @@
     font-size: 27px;
   }
 }
+
+@media #{$mobile-width} {
+  .time {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    padding: 0;
+    margin-left: -100px;
+    width: 200px;
+    text-align: center;
+  }
+  .time__about {
+    display: block;
+    position: absolute;
+    top: -50px;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  .time__date {
+    margin: 0;
+  }
+}

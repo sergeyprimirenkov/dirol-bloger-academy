@@ -18,3 +18,42 @@
     cursor: pointer;
   }
 }
+
+@media #{$mobile-width} {
+  .logout-btn {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+  .logout-btn__description {
+    width: 172px;
+    padding: 0;
+    font-size: 10px;
+    top: 35px;
+    right: 14px;
+    background: none;
+    &::before,
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      z-index: 100;
+    }
+    &::before {
+      top: -32px;
+      left: -20px;
+      width: 21px;
+      height: 44px;
+      background: url(../assets/images/left-arrow.png) 0px center no-repeat;
+      background-size: 27px 44px;
+    }
+    &::after {
+      top: 0;
+      right: -9px;
+      width: 19px;
+      height: 21px;
+      background: url(../assets/images/right-arrow.png) 0px center no-repeat;
+      background-size: 19px 21px;
+    }
+  }
+}

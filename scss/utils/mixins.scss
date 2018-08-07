@@ -1,4 +1,7 @@
 @mixin container {
   width: 1000px;
   margin: 0 auto;
+  @media #{$mobile-width} {
+    width: auto;
+  }
 }

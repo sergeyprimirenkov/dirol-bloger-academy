@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dirol Blogger Academy - Главная</title>
   <link rel="stylesheet" href="css/jquery.scrollbar.css">
   <link rel="stylesheet" href="css/main.css">
@@ -15,7 +16,8 @@
       <div class="container">
 
         <header class="page-header clearfix">
-          <nav class="main-nav">
+          <nav class="main-nav  main-nav--closed">
+              <button class="main-nav__toggle" type="button">Открыть меню</button>
             <ul class="main-nav__list">
               <li class="main-nav__item">
                 <a href="#" id="popup-toggle" class="main-nav__link">Правила</a>
@@ -40,8 +42,10 @@
         <div class="wrapper clearfix">
           <div class="slogan">
             <img class="slogan__logo" src="assets/images/logo.png" alt="Dirol Blogger Academy" class="logo" width="422" height="236">
+            <div class="slogan__text-wrapper">
             <span class="slogan__text">Головний подарунок</span>
             <h1 class="slogan__title">1 000 000 показiв</h1>
+          </div>
             <h2 class="slogan__subtitle">Розкрутка каналу на YouTube</h2>
           </div>
         </div>
@@ -73,7 +77,7 @@
             <a class="info__link" href="#"> реєстрація</a> може змінити все твоє життя Дізнайся більше – го знімати бомбезні відео</p>
           <p class="promo__center">
             <input class="enter" type="button" value="GO">
-            <p>
+          </p>
         </div>
       </div>
     </div>
@@ -84,7 +88,7 @@
     <div class="container">
       <h3 class="content__title">Як стати крутим блогером України?</h3>
       <p class="content__txt">Тобі потрібна камера, потужні ідеї та мішок натхнення</p>
-      <div class="manual">
+    <div class="manual">
         <div class="manual__step manual__step--first">
           <img src="assets/images/mentor1.png" alt="Ментор">
           <p class="manual__number">1</p>
@@ -93,7 +97,8 @@
           <img class="icon" src="assets/images/plane.png" alt="plane">
         </div>
         <div class="manual__step manual__step--second">
-          <img src="assets/images/mentor2.png" alt="Ментор">
+          <img class="manual__mentor-desktop" src="assets/images/mentor2.png" alt="Ментор">
+          <img class="manual__mentor-mobile" src="assets/images/mentor2-other.png" alt="Ментор">
           <p class="manual__number">2</p>
           <h4 class="manual__title">Отримай завдання від чат-бота</h4>
           <p class="manual__text">Він стане твоїм вірним другом та помічником</p>

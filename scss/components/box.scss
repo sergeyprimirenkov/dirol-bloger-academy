@@ -1,3 +1,9 @@
 .box {
   min-height: 350px;
 }
+
+@media #{$mobile-width} {
+  .box {
+    min-height: 120px;
+  }
+}

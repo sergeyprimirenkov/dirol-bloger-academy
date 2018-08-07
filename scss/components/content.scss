@@ -1,6 +1,6 @@
 .content {
   padding-top: 40px;
-  padding-bottom: 130px;
+  padding-bottom: 30px;
   text-align: center;
   &__title {
     font-size: 30px;
@@ -20,5 +20,18 @@
     font-size: 18px;
     color: #000;
     margin: 0 auto;
+  }
+}
+
+@media #{$mobile-width} {
+  .content__title {
+    margin-bottom: 35px;
+  }
+  .content__txt {
+    margin: 0;
+  }
+  .content__paragraph {
+    width: auto;
+    font-size: 12px;
   }
 }

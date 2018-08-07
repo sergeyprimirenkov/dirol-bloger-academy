@@ -7,3 +7,9 @@
     padding-bottom: 15px;
   }
 }
+
+@media #{$mobile-width} {
+  .main-bg {
+    padding-bottom: 260px;
+  }
+}

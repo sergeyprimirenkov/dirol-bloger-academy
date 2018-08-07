@@ -14,3 +14,27 @@
     text-align: center;
   }
 }
+
+@media #{$mobile-width} {
+  .promo {
+    min-width: 320px;
+    max-width: 1024px;
+    background: none;
+  }
+  .promo__wrapper {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .promo__wrapper .video {
+    display: block;
+    width: 271px;
+    height: 153px;
+    margin: 0 auto;
+    position: relative;
+    top: 105px;
+  }
+  .promo__center {
+    position: relative;
+    top: 120px;
+  }
+}

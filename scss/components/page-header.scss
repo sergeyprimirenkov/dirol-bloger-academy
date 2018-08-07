@@ -5,3 +5,9 @@
   margin-bottom: 60px;
   padding-bottom: 10px;
 }
+
+@media #{$mobile-width} {
+  .page-header {
+    margin-bottom: 0;
+  }
+}

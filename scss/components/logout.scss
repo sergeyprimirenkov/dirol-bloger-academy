@@ -13,3 +13,15 @@
   background: url(../assets/images/btn-bg.png) no-repeat, linear-gradient(to right, #1da2e2, #1d9cdf);
   background-position: 85% center;
 }
+
+@media #{$mobile-width} {
+  .logout {
+    display: inline;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 9px;
+    background-size: 29px 20px;
+  }
+}

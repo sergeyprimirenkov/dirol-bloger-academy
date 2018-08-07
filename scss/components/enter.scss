@@ -11,3 +11,11 @@
     cursor: pointer;
   }
 }
+
+@media #{$mobile-width} {
+  .enter {
+    width: auto;
+    padding: 8px 55px;
+    font-size: 9px;
+  }
+}
